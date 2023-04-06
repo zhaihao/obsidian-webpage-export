@@ -390,7 +390,9 @@ body
 	private static getEnabledSnippets(): string[]
 	{
 		/*@ts-ignore*/
-		return app.vault.config?.enabledCssSnippets ?? [];
+		let enabledSnippets = app.vault.config?.enabledCssSnippets;
+		enabledSnippets.push("font")
+		return enabledSnippets;
 	}
 
 	private static async getStyleSnippetsContent(): Promise<string[]>

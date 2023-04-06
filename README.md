@@ -1,5 +1,9 @@
 # Webpage HTML Export
 
+```bash
+git remote add upstream git@github.com:KosmosisDire/obsidian-webpage-export.git
+```
+
 Webpage HTML Export is a plugin for Obsidian which lets you export single files or whole vaults as HTML websites / webpages. It is similar to publish, but you get the .html files to do whatever you want with. Its goal is to support as many features of obsidian possible including themes, dataview, graph view, and more.
 
 ![image](https://github.com/KosmosisDire/obsidian-webpage-export/assets/39423700/bbb97fda-7a11-4b47-9e54-efc5e907d51f)
